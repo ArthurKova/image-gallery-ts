@@ -1,0 +1,99 @@
+// Colors
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+$background: #f2f5f8;
+$strongPurple: #8a6cf1;
+$text: #0e1014;
+$divisionLine: #e6ebef;
+$litePurple: #f2eeff;
+$literPurple: #9faad5;
+$iconsDark: #212630;
+$iconsResting: #5d626d;
+$noteButtonBackground: #e7eaec;
+$buttonText: #515358;
+$textGrayed: #c1c8ce;
+$lightPurple: #d3c7ff;
+$attach: #a3e1e4;
+$aiNote: #D8CCFF;
+$comment:#FFBABD;
+$highlight: #FFD698;
+$inActive : #E2E8F4;
+$highlightBlur: #fff70063;
+$error: #cf3636;
+$errorBackground: #ffdbdb;
+$plusBorder: #dde2e8;
+$boxShadowColor: rgba(93, 98, 109, 0.4);
+$modalBackgroundBlur: rgba(33, 38, 48, 0.2);
+$modalDarkBackgroundBlur: rgba(0, 0, 0, 0.8);
+$sourceBoxShadow: rgba(135, 145, 154, 0.2);
+$onboardingOptionBoxShadow: rgba(200, 214, 231, 0.5);
+$signupBarBoxShadow: rgba(138, 108, 241, 0.6);
+$white: #ffffff;
+$black: #000000;
+$audioPlayerTimeline: #e7dfff;
+$audioPlayerTimelineHover: #d4c8ff;
+$logoSignColor: #b8a4fd;
+$sourceAuthorText: #87919a;
+$addSourceBackground: #eef1f4;
+$skeleton: #e4e4e4;
+$error_red: #d30000;
+$background_error: #ffe6e6;
+$off_white_settings: #f8fafc;
+$emptyLibraryBackground: #f7fbff;
+$emptySourceStroke: #e3e9ef;
+$blueLink: #0028f8;
+$newSource: #ff68c3;
+$summarySource: #08e2bb;
+$draftSource: #ff8777;
+$onboardingPickBorder: #e3eeff;
+$uninstallMultipickOptionBackground: #f3f9ff;
+
+$dark_background: #1c1a23;
+$dark_navbar: #302e36;
+$dark_strongPurple: #423961;
+$dark_audioPlayerTimeline: #3a3253;
+$dark_audioPlayerTimelineHover: #4d407c;
+$dark_modeD: #44424d;
+$dark_text: #0e1014;
+$dark_modeL: #36324e;
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+$main_font: 'Inter';
+
+// @import url('https://use.typekit.net/kjc2xor.css');
+// @import url('https://use.typekit.net/ytt5jbo.css');
+$sub_font: 'ivypresto-display';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+$font_lato: 'Lato';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+$font_rubik: 'Rubik';
+
+@import url('https://use.typekit.net/kjc2xor.css');
+$font_elza: 'elza';
+$font_new_spirit: 'new-spirit';
+
+//Inheritance
+%popup_container {
+  background: $white;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px $boxShadowColor;
+  padding: 5px 0;
+}
+
+%skeleton {
+  border-radius: 6px;
+  background-color: $skeleton;
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  margin-right: 5px;
+  &.dark_mode {
+    background-color: $dark_audioPlayerTimelineHover;
+  }
+}
